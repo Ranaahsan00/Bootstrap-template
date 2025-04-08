@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bsTemplate.css">
+
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <!-- FOnt Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            background: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bootstrap Template</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <!-- Right: Menu aligned to end -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="c-item" style="background-image: url('img/img1.jpg');">
+                    <div class="overlay">
+                        <div class="content">
+                            <div class="container text-center">
+                                <h1>Welcome to BS Template</h1>
+                                <p class="longText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                                    consequatur
+                                    voluptatem
+                                    assumenda quaerat debitis quo, itaque provident? Autem voluptatum molestiae maiores
+                                    culpa id, ipsam adipisci, expedita assumenda suscipit laudantium aliquid.
+                                    Corrupti facilis itaque odit sint architecto! Dolorem maiores voluptate placeat
+                                    ipsa.</p>
+                                <p class="shortText">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus saepe
+                                    impedit quos recusandae cum nobis vitae, sapiente earum, libero aut itaque hic vero
+                                    qui inventore dolorem. Quae voluptas dicta eaque.
+                                </p>
+                                <button class="my-btn">Read More <i class="fa fa-angle-double-right"
+                                        aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="img/img1.jpg" class="d-block w-100" alt="image 1"> -->
+            </div>
+            <div class="carousel-item">
+                <div class="c-item" style="background-image: url('img/img2.jpg');">
+                    <div class="overlay">
+                        <div class="content">
+                            <div class="container">
+                                <h1>Welcome to BS Template</h1>
+                                <p class="longText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                                    consequatur
+                                    voluptatem
+                                    assumenda quaerat debitis quo, itaque provident? Autem voluptatum molestiae maiores
+                                    culpa id, ipsam adipisci, expedita assumenda suscipit laudantium aliquid.
+                                    Corrupti facilis itaque odit sint architecto! Dolorem maiores voluptate placeat
+                                    ipsa.</p>
+                                <p class="shortText">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus saepe
+                                    impedit quos recusandae cum nobis vitae, sapiente earum, libero aut itaque hic vero
+                                    qui inventore dolorem. Quae voluptas dicta eaque.
+                                </p>
+                                <button class="my-btn">Read More <i class="fa fa-angle-double-right"
+                                        aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="img/img2.jpg" class="d-block w-100" alt="image 2"> -->
+            </div>
+            <div class="carousel-item">
+                <div class="c-item" style="background-image: url('img/img3.jpg');">
+                    <div class="overlay">
+                        <div class="content">
+                            <div class="container">
+                                <h1>Welcome to BS Template</h1>
+                                <p class="longText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                                    consequatur
+                                    voluptatem
+                                    assumenda quaerat debitis quo, itaque provident? Autem voluptatum molestiae maiores
+                                    culpa id, ipsam adipisci, expedita assumenda suscipit laudantium aliquid.
+                                    Corrupti facilis itaque odit sint architecto! Dolorem maiores voluptate placeat
+                                    ipsa.</p>
+                                <p class="shortText">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus saepe
+                                    impedit quos recusandae cum nobis vitae, sapiente earum, libero aut itaque hic vero
+                                    qui inventore dolorem. Quae voluptas dicta eaque.
+                                </p>
+                                <button class="my-btn">Read More <i class="fa fa-angle-double-right"
+                                        aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="img/img3.jpg" class="d-block w-100" alt="image 3"> -->
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <section class="how-it-works">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <div class="_card">
+                        <div class="icon">
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                        </div>
+                        <h4>Responsive</h4>
+                        <p>This template is responsive on all devices</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <div class="_card">
+                        <div class="icon">
+                            <i class="fa fa-rocket" aria-hidden="true"></i>
+                        </div>
+                        <h4>Performance</h4>
+                        <p>This template is responsive on all devices</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <div class="_card">
+                        <div class="icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <h4>Support 24/7</h4>
+                        <p>This template is responsive on all devices</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <div class="_card">
+                        <div class="icon">
+                            <i class="fa fa-id-badge" aria-hidden="true"></i>
+                        </div>
+                        <h4>Award Winning</h4>
+                        <p>This template is responsive on all devices</p>
+                    </div>
+                </div>
+
+                <div class="clearfix">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="margin"></div>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>About Us</h1>
+                    <p class="longText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquam minus
+                        temporibus
+                        dolorem assumenda beatae porro quis. Praesentium a iure quam, reprehenderit itaque ipsam
+                        delectus. Ducimus nesciunt quas soluta ad. Lorem ipsum dolor sit. Lorem, ipsum dolor sit
+                        amet consectetur adipisicing elit. Quo error et, odio recusandae ipsum accusamus provident
+                        eos, repellat amet distinctio quia repellendus iure dolores a ex eum, corporis saepe
+                        voluptas.
+                        Facilis, amet. Nemo nesciunt a magni ipsum soluta, veritatis eaque. Saepe eos quaerat
+                        exercitationem reprehenderit, quam autem fugit deserunt quod molestias ex tenetur! Quo atque
+                        tempore veritatis autem impedit recusandae?
+                        Velit error incidunt asperiores harum quia aliquam voluptate aut cupiditate maiores, quod
+                        non dignissimos, quo itaque fugiat quas soluta. A qui in quisquam enim aliquid voluptatum.
+                        Non exercitationem debitis deserunt.
+                        Voluptatum sequi et ipsum fuga id qui amet quia iste deserunt enim quidem reiciendis, quam
+                        dolorem natus. Ipsum dolorum deleniti harum explicabo laboriosam vero nam labore quod?
+                        Laboriosam, sit in.
+                    </p>
+                    <p class="shortText">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquam minus temporibus
+                        dolorem assumenda beatae porro quis. Praesentium a iure quam, reprehenderit itaque ipsam
+                        delectus.
+                    </p>
+                    <button class="my-btn mb-3">
+                        Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/img4.jpg" class="aboutimg" alt="Image 4">
+                </div>
+                <div class="clearfix">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="margin"></div>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center my-4 text-light">Our Services</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mt-3 text-center">
+                    <div class="_card">
+                        <i class="fa fa-globe sicon" aria-hidden="true"></i>
+                        <h4>Web Development</h4>
+                        <button class="my-btn">
+                            Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3 text-center">
+                    <div class="_card">
+                        <i class="fa fa-mobile sicon" aria-hidden="true"></i>
+                        <h4>Mobile App Development</h4>
+                        <button class="my-btn">
+                            Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3 text-center">
+                    <div class="_card">
+                        <i class="fa fa-bar-chart sicon" aria-hidden="true"></i>
+                        <h4>Graphics Designing</h4>
+                        <button class="my-btn">
+                            Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="margin">
+
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <h1 class="margin">Contact Us</h1>
+            <form action="#">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6 mt-3">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="fname" id="fname"
+                                        placeholder="first name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="lname" id="lname"
+                                        placeholder="last name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mt-3">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="example@email.com" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mt-3">
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" rows="5" id="desc"
+                                        placeholder="Type your message here..."></textarea>
+                                    <input type="submit" name="submit" value="Send Message" class="my-btn mt-3">
+                                </div>
+                            </div>
+                            <!-- <div class="margin"></div> -->
+                            <div class="clearfix">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe class="mt-3"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.1788672398156!2d11.520530586361009!3d48.12607387782431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479dd901725214ab%3A0x4b317f65fb399eb2!2sBMW%20Park!5e0!3m2!1sen!2s!4v1744092901925!5m2!1sen!2s"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="margin"></div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        &copy; 2023 Bootstrap Template. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Script  -->
+
+    <script>
+        $("a[href^='#']").click(function (e) {
+            e.preventDefault();
+
+            var position = $($(this).attr("href")).offset().top;
+
+            $("body, html").animate({
+                scrollTop: position
+            } /* speed */);
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
