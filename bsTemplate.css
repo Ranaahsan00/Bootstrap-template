@@ -1,0 +1,169 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background: black !important;
+    color: white !important;
+}
+
+.hero {
+    background: url('../img/landscape-8336497_1280.webp') no-repeat center;
+    background-size: cover;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.hero .jumbotron {
+    background: transparent;
+    text-align: center !important;
+}
+
+.card i {
+    font-size: 35px;
+}
+
+.c-item {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c-item .overlay {
+    padding: 100px 150px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.c-item .overlay .content {
+    padding: 70px 0px;
+}
+
+.c-item .overlay .content h1 {
+    margin: 30px 0px;
+    font-size: 42px;
+}
+
+.my-btn {
+    background-color: white;
+    padding: 8px 40px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.how-it-works {
+    margin-top: -90px;
+
+}
+
+._card {
+    padding: 70px 20px 20px 20px;
+    background: #efefef;
+    box-shadow: 0px 0px 5px silver;
+    position: relative;
+    border-radius: 10px;
+    z-index: 999999999999;
+    /* min-height: 240px; */
+    /* 👈 Set your desired consistent height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+._card .icon {
+    font-size: 46px;
+    background: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 10px;
+}
+
+._card .icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px !important;
+}
+
+.margin {
+    margin: 70px 0;
+}
+
+.aboutimg {
+    width: 100%;
+    height: 500px;
+}
+
+._card .sicon {
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+.services {
+    background: #000;
+    padding: 50px 0px;
+}
+
+.services ._card._card:hover, ._card:hover {
+    background: #000;
+    transition: 0.5s;
+    color: white;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.shortText {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .c-item .overlay {
+        padding: 60px 80px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+
+    }
+
+    .longText {
+        display: none;
+    }
+
+    .shortText {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .c-item .overlay {
+        padding: 60px 80px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .c-item .overlay {
+        padding: 60px 40px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+}
